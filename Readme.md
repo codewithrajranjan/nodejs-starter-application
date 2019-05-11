@@ -45,3 +45,14 @@ The content of config.js file is
 
 ```
 
+Open the app in browser using
+
+
+```bash
+
+    http:\\ip-address:8080
+
+```
+
+![NodeJS app main page](https://github.com/self-tuts/nodejs-starter-application/blob/master/img/image.PNG)
+
