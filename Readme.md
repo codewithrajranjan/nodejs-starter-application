@@ -1,8 +1,9 @@
-# Sample nodejs application with docker Conatiner
+#  NodeJs Starter Application
+
+This is just a simple NodeJs application which serves some static files present in the public folder.
 
 
-# Installation
-
+## Installation
 
 ```javascript
 
@@ -15,8 +16,25 @@
 
 ```
 
+## Configuration
 
-# Running the application
+open the config.js file and set the configuration based on your need
+
+The content of config.js file is
+
+
+```javascript
+
+    module.exports = {
+    
+        "serverPort" :  8080   // this is the server port on which node application will start
+    }
+    
+
+```
+
+
+## Running the application
 
 
 ```javascript
@@ -26,26 +44,4 @@
 
 
 ```
-
-
-# Building docker image
-
-```bash
-
-    docker build -t <imagename:version> .
-
-```
-
-
-
-# Running docker container
-
-
-```bash
-
-    // 9005 port is given since the docker file contains 9005 port
-    docker run -it -d -p <outside-port-of-your-choice>:9005 <imagename:version>
-
-```
-
 
